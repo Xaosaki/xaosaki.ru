@@ -5,7 +5,3 @@ RewriteRule ^(.*)$ http://xaosaki.ru/$1 [R=301,L]
 
 Options +MultiViews
 
-#order deny,allow 
-#deny from all 
-#allow from 109.110.67.92
-ErrorDocument 403 http://dev.xaosaki.ru/403.html
