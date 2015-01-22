@@ -7,9 +7,26 @@
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="style/js/main.js"></script>
 </head>
 <body>
+<div class="wr">
+    <div class="w_blue"></div>
+    <div class="w_add">
+        <a href="javascript:void(0);" class="close"></a>
+        <h2>Добавление проекта</h2>
+        <form>
+            <label>Название проекта <input type="text" placeholder="Введите название"/></label>
+            <label>Картинка проекта <input type="text" placeholder="Загрузите изображение" disabled/>
+            </label>
+            <div class="pseudo"><input type="file"/></div>
+            <label>URL проекта <input type="text" placeholder="Добавьте ссылку"/></label>
+            <label>Описание <textarea placeholder="Пара слов о Вашем проекте"></textarea></label>
+            <input type="submit"/>
+        </form>
+    </div>
     <header>
         <div class="inside">
             <a href="/" class="inside-logo"></a>
