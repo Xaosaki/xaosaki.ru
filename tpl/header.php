@@ -61,8 +61,8 @@
             </nav>
             <div class="contacts">
                 <h4>Контакты</h4>
-                <a href="/" class="mail"><span>xaosaki@gmail.com</span></a>
-                <a href="/" class="phone"><span>+797881o7839</span></a>
-                <a href="/" class="skype"><span>xaosaki</span></a>
+                <a href="mailto:xaosaki@gmail.com" class="mail"><span>xaosaki@gmail.com</span></a>
+                <a href="tel:+79788107839" class="phone"><span>+797881o7839</span></a>
+                <a href="skype:xaosaki?chat" class="skype"><span>xaosaki</span></a>
             </div>
         </aside>
