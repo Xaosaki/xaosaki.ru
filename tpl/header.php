@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -24,7 +25,7 @@
             <div class="pseudo"><input type="file"/></div>
             <label>URL проекта <input type="text" placeholder="Добавьте ссылку"/></label>
             <label>Описание <textarea placeholder="Пара слов о Вашем проекте"></textarea></label>
-            <input type="submit"/>
+            <input type="submit" value="Отправить"/>
         </form>
     </div>
     <header>
@@ -57,12 +58,12 @@
                 <a href="/"  class="active">Про меня</a>
                 <a href="/portfolio">Мои работы</a>
                 <a href="/contact">Связаться со мной</a>
-                <?php;}?>
+                <?php ;}?>
             </nav>
             <div class="contacts">
                 <h4>Контакты</h4>
                 <a href="mailto:xaosaki@gmail.com" class="mail"><span>xaosaki@gmail.com</span></a>
-                <a href="tel:+79788107839" class="phone"><span>+797881o7839</span></a>
+                <a href="tel:+79788107839" class="phone"><span>+79788107839</span></a>
                 <a href="skype:xaosaki?chat" class="skype"><span>xaosaki</span></a>
             </div>
         </aside>

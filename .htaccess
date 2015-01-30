@@ -4,4 +4,4 @@ RewriteCond %{HTTP_HOST} ^www.xaosaki\.ru$ [NC]
 RewriteRule ^(.*)$ http://xaosaki.ru/$1 [R=301,L]
 
 Options +MultiViews
-
+php_flag display_errors on

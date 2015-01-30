@@ -2,7 +2,7 @@
 
 <footer>
     <div class="separator"></div>
-    <div class="inside"><a href="/" class="in"></a><p>© 2015, xaosaki.ru. ver 1.1. Дизайн loftschool.ru</p>
+    <div class="inside"><a href="/login" class="in"></a><p>© 2015, xaosaki.ru. ver 1.1. Дизайн loftschool.ru</p>
         <div class="stat"> <!--LiveInternet counter--><script type="text/javascript"><!--
                 document.write("<a href='//www.liveinternet.ru/click' "+
                     "target=_blank><img src='//counter.yadro.ru/hit?t20.1;r"+

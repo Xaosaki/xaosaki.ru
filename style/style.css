@@ -1,8 +1,10 @@
 @import url("reset.css");
 @import url("typography.css");
-body{font-family: 'Fira Sans', sans-serif; background: url("img/bg.png")}
+@import url("fira/fira.css");
+body{background: url("img/bg.png")}
 h4{font-size: 21px;}
-h1{font-size: 27px;}
+.h1{font-size: 25px;
+    font-family: 'fira_sansbook', sans-serif;}
 h2{font-size: 25px;}
 
 
@@ -65,23 +67,22 @@ header{
     }
     nav{width: 250px;margin-bottom: 23px;background: #eff3f7; border-radius: 5px;}
         nav a{
+            font-family: 'fira_sansbook', sans-serif;
             display: block;
             padding: 28px 0 28px 27px;
-            font-size: 21px;
+            font-size: 20px;
             color: #959aa8;
-            border-top: 2px solid transparent;
-            border-bottom: 2px solid transparent;
+            border-top: 2px solid #3ba8c0;
+            border-bottom: 2px solid #3ba8c0;
             margin: -2px 0 0;
         }
         nav a:hover{
             color: #3ba8c0;
-            border-top: 2px solid #3ba8c0;
-            border-bottom: 2px solid #3ba8c0;
             padding: 28px 0 28px 17px;
             margin: -2px 10px 0;
         }
         nav a.active{
-            font-size: 23px;
+            font-size: 22px;
             color: #ffffff;
             background: #3ba8c0;
             margin: -2px 0 0;
@@ -95,6 +96,7 @@ header{
         background: #3ba8c0;
         border-radius: 5px;
         color: #fbfcfd;
+        font-family: 'fira_sansbook', sans-serif;
     }
         .contacts h4{padding: 13px 0 6px 19px;}
         .contacts a{
@@ -125,7 +127,7 @@ header{
             background: #eff3f7;
             overflow: hidden;
         }
-            section .block h1{
+            section .block .h1{
                 display: block;
                 float: left;
                 margin-bottom: 26px;
@@ -150,9 +152,10 @@ header{
             }
                 section .block .info p{
                     margin-bottom: 20px;
+                    font-family: 'fira_sansbook', sans-serif;
                 }
                 section .block .info strong{
-                    font-weight: bold;
+                    font-family: 'fira_sansmedium', sans-serif;
                     color: #4a545d;
                     font-size: 17px;
                 }
@@ -177,8 +180,10 @@ header{
                 clear: both;
                 font-size: 15px;
                 color: #4a545d;
+                font-family: 'fira_sanslight', sans-serif;
             }
                 section .block .lline .big{
+                    font-family: 'fira_sansbook', sans-serif;
                     font-size: 17px;
                     color: #4a545d;
                     margin-bottom: 5px;
@@ -190,9 +195,9 @@ header{
                 margin-left: 20px;
                 margin-right: 10px;
                 width: 183px;
-                height: 210px;
                 margin-bottom: 35px;
                 float: left;
+                font-family: 'fira_sanslight', sans-serif;
             }
             section .block .works:nth-child(2){
                 clear: both;
@@ -200,12 +205,16 @@ header{
             section .block .works:nth-child(3n+2){
                 margin-right: 20px;
             }
+            section .block .works:nth-child(3n+3){
+                clear: both;
+            }
                 section .block .works .image{
                     width: 183px;
                     height: 129px;
                     background: #3ba8c0;
                     border-radius: 5px;
                     position: relative;
+                    margin-bottom: 15px;
                 }
                 section .block .works .image .h-img{
                     display: none;
@@ -240,7 +249,6 @@ header{
 
             section .block .works a{
                 display: block;
-                padding-top: 10px;
                 padding-bottom: 15px;
                 text-align: center;
                 font-size: 13px;
@@ -269,8 +277,10 @@ header{
             background: #eff3f7;
             border-radius: 5px;
             margin-bottom: 40px;
+
+            position: relative;
         }
-        section .contact h1{
+        section .contact .h1{
             line-height: 121px;
             background: #48cbe8;
             text-align: center;
@@ -303,6 +313,7 @@ header{
                 color: #959aa8;
                 float: left;
                 margin-right: 18px;
+                font-family: 'fira_sanslight', sans-serif;
             }
             section .contact label.capcha{
                 font-size: 17px;
@@ -340,7 +351,7 @@ header{
             section .contact input[type="reset"],section .contact input[type="reset"]:hover{
                 width: 142px;
             }
-            input[type="submit"]{margin-right: 120px;}
+            section input[type="submit"]{margin-right: 120px;}
              input[type="submit"]{background-position: 0 -249px;}
              input[type="submit"]:hover{background-position: 0 -166px;}
             section .contact input[type="reset"]:hover{background-position: 0 0;}
@@ -355,6 +366,7 @@ header{
 footer{
     height: 82px;
     background: #eff3f7;
+    font-family: 'fira_sansbook', sans-serif;
 }
     footer .inside{
         width: 960px;
@@ -385,6 +397,7 @@ display: none;
 }
 .w_add{
     display: none;
+    font-family: 'fira_sansbook', sans-serif;
     width: 362px;
     height: 495px;
     margin-top: 10%;
@@ -408,6 +421,7 @@ display: none;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         border-bottom: 9px solid #67dffa;
+        font-family: 'fira_sansregular', sans-serif;
     }
     .close{
         display: block;
@@ -431,6 +445,7 @@ display: none;
             display: block;
             font-size: 13px;
             border: 1px solid #48cbe8;
+            font-family: 'fira_sanslight', sans-serif;
             padding: 12px 10px;
             margin-top: 5px;
             margin-bottom: 13px;
@@ -471,5 +486,97 @@ display: none;
     float: right;
     margin-top: -25px;
 }
+.login{
+    width: 600px;
+    height: 485px;
+    margin: 100px auto 0;
+    background: #eff3f7;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+.login__title {
+    font-family: 'fira_sansbook', sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+    line-height: 90px;
+    background: #48cbe8;
+    text-align: center;
+    border-bottom: 15px solid #67dffa;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 25px;
+}
 
+.login__input span{
+    display: block;
+    text-align: center;
+    font-family: 'fira_sanslight', sans-serif;
+    font-size: 34px;
+    color: #959aa8;
+    margin-bottom: 20px;
+}
+.login__input input{
+    display: block;
+    width: 400px;
+    border: 1px solid #48cbe8;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0 auto 24px;
+    line-height: 50px;
+}
+
+.login__submit {
+    display: block;
+    zoom: 1.4;
+    margin: 0 auto;
+}
 .red{color:#f97e76 !important;}
+
+.error{
+    width: 200px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    background: #3ba8c0;
+    border-top-left-radius: 5px;
+
+}
+.tooltip{
+    width: 106px;
+    line-height: 26px;
+    margin-top: 17px;
+    position: absolute;
+    background: #f97e76;
+    display: none;
+    text-align: center;
+    font-family: 'fira_sansbook', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 5px;
+}
+.tooltip_left{left: 0;margin-left: 0px; }
+.tooltip_left::after {
+    content: '';
+    position: absolute;
+    right: -18px;    bottom: 3px;
+    border: 10px solid transparent;
+    border-left: 8px solid rgb(249, 126, 118);
+}
+
+.tooltip_right{right:0;margin-right: 15px;}
+.tooltip_right::after {
+    content: '';
+    position: absolute;
+    left: -18px;    bottom: 3px;
+    border: 10px solid transparent;
+    border-right: 8px solid rgb(249, 126, 118);
+}
+

@@ -55,3 +55,6 @@ input,textarea {
 a {
 	text-decoration: none;
 }
+strong{
+    font-weight: normal;
+}
